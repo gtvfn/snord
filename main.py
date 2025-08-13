@@ -5,8 +5,7 @@ import game.utils as ut
 
 
 def main():
-    word = "Snord"
-    # word = ut.get_word()
+    word = ut.get_word()
     word_letters = list(word)
     pygame.init()
     screen = ut.create_screen()
